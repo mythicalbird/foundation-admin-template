@@ -1,3 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+
+html,body {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 100%;
+	color: #333;
+}
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	color: #333;	
+}
+/* general */
+.block {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.head-title {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.grid-page .row {
+	border: 1px solid #e6e6e6;
+	margin: 1rem 0;
+}
+.grid-page .row .columns, .grid .row .column {
+	background-color: #f1f1f1;
+	border: 1px solid #cacaca;
+	padding: .5rem;
+}
+.login-form {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 3rem;
+	padding: 2rem 2rem 1rem;
+}
+.input-left {
+	width: 50%;
+	padding-right: .5rem;
+}
+.input-right {
+	width: 50%;
+	padding-left: .5rem;
+}
 /* icons */
 i.size-18 { font-size: 18px !important; }
 i.size-24 { font-size: 24px !important; }
@@ -5,49 +51,14 @@ i.size-32 { font-size: 32px !important; }
 i.size-44 { font-size: 44px !important; }
 i.size-60 { font-size: 60px !important; }
 i.size-72 { font-size: 72px !important; }
-
-.block {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-
-.head-title {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
-}
-
-.grid .row {
-	border: 1px solid #e6e6e6;
-	margin: 1rem 0;
-}
-
-.grid .row .columns, .grid .row .column {
+/* header */
+#header .top-bar, #header .top-bar ul {
 	background-color: #f1f1f1;
-	border: 1px solid #cacaca;
-	padding: .5rem;
-}
-
-.login-form {
-	width: 500px;
-	margin: 0 auto;
-	margin-top: 3rem;
-	padding: 2rem 2rem 1rem;
-}
-
-.float-left.input-left {
-	width: 50%;
-	padding-right: .5rem;
-}
-
-.float-left.input-right {
-	width: 50%;
-	padding-left: .5rem;
 }
 /* sidebar */
 #sidebar .vertical.menu a {
 	padding: 1rem;
 }
-
 /* home */
 #summary .clearfix .float-left {
 	width: 35%;
