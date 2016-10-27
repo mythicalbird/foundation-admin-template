@@ -1,0 +1,275 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MB Foundation Admin</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/icons/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+<body>
+
+<div class="off-canvas-wrapper">
+  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+    <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+
+      <!-- sidebar -->
+      <div id="sidebar">
+        <div class="row column">
+          <br>
+          <div class="input-group">
+            <input type="search" class="input-group-field" name="search">
+            <div class="input-group-button">
+              <button type="submit" class="button"><i class="fi-magnifying-glass"></i></button>
+            </div>
+          </div>
+          <br>
+        </div>
+        <ul class="vertical menu" data-accordion-menu>
+          <li><a href="index.html"><i class="fi-foundation"></i> Dashboard</a></li>
+          <li><a href="grids.html"><i class="fi-thumbnails"></i> Grids</a></li>
+          <li><a href="tables.html"><i class="fi-results"></i> Tables</a></li>
+          <li><a href="forms.html"><i class="fi-pencil"></i> Forms</a></li>
+          <li>
+              <a href="#0"><i class="fi-layout"></i> Elements</a>
+              <ul class="menu vertical nested">
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="typography.html">Typography</a></li>
+              </ul>
+          </li>
+          <li>
+              <a href="#0"><i class="fi-page"></i> Pages</a>
+              <ul class="menu vertical nested">
+                <li><a href="blank.html">Blank</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+              </ul>
+          </li>
+          <li>
+              <a href="#0"><i class="fi-list"></i> Menu Level 1</a>
+              <ul class="menu vertical nested">
+                <li>
+                  <a href="#0">Menu Level 2</a>
+                  <ul class="menu vertical nested">
+                    <li><a href="#0">Item Level 2A</a></li>
+                    <li><a href="#0">Item Level 2B</a></li>
+                    <li><a href="#0">Item Level 2C</a></li>
+                  </ul>
+                </li>
+                <li><a href="#0">Item Level 1A</a></li>
+                <li><a href="#0">Item Level 1B</a></li>
+              </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- //sidebar -->
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- header -->
+      <header id="header">
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li class="menu-text">MB Foundation</li>
+              <li class="has-submenu">
+                <a href="#0">One</a>
+                <ul class="submenu menu vertical" data-submenu>
+                  <li><a href="#0">One</a></li>
+                  <li><a href="#0">Two</a></li>
+                  <li><a href="#0">Three</a></li>
+                </ul>
+              </li>
+              <li><a href="#0">Two</a></li>
+              <li><a href="#0">Three</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li><a href="#0"><span class="alert badge">5</span> <i class="fi-mail"></i></a></li>
+              <li><a href="#0"><span class="alert badge">12</span> <i class="fi-megaphone"></i></a></li>
+              <li class="has-submenu">
+                <a href="#0">Hello, John Doe</a>
+                <ul class="submenu menu vertical" data-submenu>
+                  <li><a href="#0"><i class="fi-torso"></i> Account</a></li>
+                  <li><a href="#0"><i class="fi-wrench"></i> Setting</a></li>
+                  <li><a href="#0"><i class="fi-power"></i> Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- //header -->
+
+      <!-- page title -->
+      <div class="row column head-title">
+      <h3>Foundation for Sites <small>Version 6.2.4</small></h3>  
+      </div>      
+      <!-- //page title -->
+
+      <!-- contents -->
+      <div class="row column">
+			<div class="form-page">
+				<div class="callout">
+					<header><h5>Basic</h5></header>
+					<hr>
+					<form>
+					  <label>Input Label
+					    <input type="text" placeholder=".small-12.columns" aria-describedby="exampleHelpText">
+					  </label>
+					  <p class="help-text" id="exampleHelpText">Here's how you use this input field!</p>
+					  <label>
+					    How many puppies?
+					    <input type="number" value="100">
+					  </label>
+					  <label>
+					    What books did you read over summer break?
+					    <textarea placeholder="None"></textarea>
+					  </label>
+					  <label>Select Menu
+					    <select>
+					      <option value="husker">Husker</option>
+					      <option value="starbuck">Starbuck</option>
+					      <option value="hotdog">Hot Dog</option>
+					      <option value="apollo">Apollo</option>
+					    </select>
+					  </label>
+					  <div class="row">
+					    <fieldset class="large-6 columns">
+					      <legend>Choose Your Favorite</legend>
+					      <input type="radio" name="pokemon" value="Red" id="pokemonRed" required><label for="pokemonRed">Red</label>
+					      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+					      <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
+					    </fieldset>
+					    <fieldset class="large-6 columns">
+					      <legend>Check these out</legend>
+					      <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+					      <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+					      <input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 3</label>
+					    </fieldset>
+					  </div>
+					  <div class="row">
+					    <div class="small-3 columns">
+					      <label for="middle-label" class="text-right middle">Label</label>
+					    </div>
+					    <div class="small-9 columns">
+					      <input type="text" id="middle-label" placeholder="Right- and middle-aligned text input">
+					    </div>
+					  </div>
+					  <div class="input-group">
+					    <span class="input-group-label">$</span>
+					    <input class="input-group-field" type="url">
+					    <a class="input-group-button button">Submit</a>
+					  </div>
+					</form>
+				</div>
+
+				<div class="callout">
+					<header><h5>Abide</h5></header>
+					<hr>
+					<form data-abide novalidate>
+					  <div data-abide-error class="alert callout" style="display: none;">
+					    <p><i class="fi-alert"></i> There are some errors in your form.</p>
+					  </div>
+					  <div class="row">
+					    <div class="small-12 columns">
+					      <label>Number Required
+					        <input type="text" placeholder="1234" aria-describedby="exampleHelpText" required pattern="number">
+					        <span class="form-error">
+					          Yo, you had better fill this out, it's required.
+					        </span>
+					      </label>
+					      <p class="help-text" id="exampleHelpText">Here's how you use this input field!</p>
+					    </div>
+					    <div class="small-12 columns">
+					      <label>Nothing Required!
+					        <input type="text" placeholder="Use me, or don't" aria-describedby="exampleHelpTex" data-abide-ignore>
+					      </label>
+					      <p class="help-text" id="exampleHelpTex">This input is ignored by Abide using `data-abide-ignore`</p>
+					    </div>
+					    <div class="small-12 columns">
+					      <label>Password Required
+					        <input type="password" id="password" placeholder="yeti4preZ" aria-describedby="exampleHelpText" required >
+					        <span class="form-error">
+					          I'm required!
+					        </span>
+					      </label>
+					      <p class="help-text" id="exampleHelpText">Enter a password please.</p>
+					    </div>
+					    <div class="small-12 columns">
+					      <label>Re-enter Password
+					        <input type="password" placeholder="yeti4preZ" aria-describedby="exampleHelpText2" required pattern="alpha_numeric" data-equalto="password">
+					        <span class="form-error">
+					          Hey, passwords are supposed to match!
+					        </span>
+					      </label>
+					      <p class="help-text" id="exampleHelpText2">This field is using the `data-equalto="password"` attribute, causing it to match the password field above.</p>
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="medium-6 columns">
+					      <label>URL Pattern, not required, but throws error if it doesn't match the Regular Expression for a valid URL.
+					        <input type="text" placeholder="http://foundation.zurb.com" pattern="url">
+					      </label>
+					    </div>
+					    <div class="medium-6 columns">
+					      <label>European Cars, Choose One, it can't be the blank option.
+					        <select id="select" required>
+					          <option value=""></option>
+					          <option value="volvo">Volvo</option>
+					          <option value="saab">Saab</option>
+					          <option value="mercedes">Mercedes</option>
+					          <option value="audi">Audi</option>
+					        </select>
+					      </label>
+					    </div>
+					  </div>
+					  <div class="row">
+					    <fieldset class="large-6 columns">
+					      <legend>Choose Your Favorite, and this is required, so you have to pick one.</legend>
+					      <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+					      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue" required><label for="pokemonBlue">Blue</label>
+					      <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
+					    </fieldset>
+					    <fieldset class="large-6 columns">
+					      <legend>Choose Your Favorite - not required, you can leave this one blank.</legend>
+					      <input type="radio" name="pockets" value="Red" id="pocketsRed"><label for="pocketsRed">Red</label>
+					      <input type="radio" name="pockets" value="Blue" id="pocketsBlue"><label for="pocketsBlue">Blue</label>
+					      <input type="radio" name="pockets" value="Yellow" id="pocketsYellow"><label for="pocketsYellow">Yellow</label>
+					    </fieldset>
+					    <fieldset class="large-6 columns">
+					      <legend>Check these out</legend>
+					      <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+					      <input id="checkbox2" type="checkbox" required><label for="checkbox2">Checkbox 2</label>
+					      <input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 3</label>
+					    </fieldset>
+					  </div>
+					  <div class="row">
+					    <fieldset class="large-6 columns">
+					      <button class="button" type="submit" value="Submit">Submit</button>
+					    </fieldset>
+					    <fieldset class="large-6 columns">
+					      <button class="button" type="reset" value="Reset">Reset</button>
+					    </fieldset>
+					  </div>
+					</form>
+				</div>
+
+			</div>
+        </div>
+        <!-- //contents -->    
+
+        </div> <!-- // contents-wrapper -->
+      </div> <!-- // wrapper -->
+    </div> <!-- // off-canvas -->
+
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/what-input.js"></script>
+    <script src="assets/js/vendor/foundation.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

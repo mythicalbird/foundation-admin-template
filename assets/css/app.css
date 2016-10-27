@@ -1,0 +1,62 @@
+/* icons */
+i.size-18 { font-size: 18px !important; }
+i.size-24 { font-size: 24px !important; }
+i.size-32 { font-size: 32px !important; }
+i.size-44 { font-size: 44px !important; }
+i.size-60 { font-size: 60px !important; }
+i.size-72 { font-size: 72px !important; }
+
+.block {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.head-title {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.grid .row {
+	border: 1px solid #e6e6e6;
+	margin: 1rem 0;
+}
+
+.grid .row .columns, .grid .row .column {
+	background-color: #f1f1f1;
+	border: 1px solid #cacaca;
+	padding: .5rem;
+}
+
+.login-form {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 3rem;
+	padding: 2rem 2rem 1rem;
+}
+
+.float-left.input-left {
+	width: 50%;
+	padding-right: .5rem;
+}
+
+.float-left.input-right {
+	width: 50%;
+	padding-left: .5rem;
+}
+/* sidebar */
+#sidebar .vertical.menu a {
+	padding: 1rem;
+}
+
+/* home */
+#summary .clearfix .float-left {
+	width: 35%;
+}
+#summary .clearfix .float-right {
+	width: 65%;
+	padding-right: 1rem;
+}
+#summary .clearfix {
+	padding-top: .5rem;
+	border-top: 1px solid #cacaca;
+}
